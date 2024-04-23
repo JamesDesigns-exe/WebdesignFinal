@@ -108,7 +108,13 @@ p { text-align: left; color: #ffffff; font-size: 15px;}
 
   .left {
     float: left;
-    
+
+  }
+
+  .right {
+    object-position: right;
+    offset-position: right;
+
   }
 
   @media (max-width: 800px) {
