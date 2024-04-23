@@ -1,0 +1,139 @@
+<!DOCTYPE html><html>
+  <head>
+    <meta charset="utf-8">
+    <title>The great recreation area</title>
+    <style>
+    body { background-color: #ffffff; margin: 0 10%; font-family: 'Times New Roman', Times, serif; }
+    h1 { text-align: center; font-family: serif; font-weight: normal; text-transform: uppercase; border-bottom: 1px solid #000000; margin-top: 30px;}
+    h2 { text-align: left; color: #000000; font-size: 30px;}
+    h3 { text-align: left; color: #000000; font-size: 20px;}
+    table {border-collapse: collapse;width: 100%;border-radius: 10px;overflow: hidden;}
+    th, td {border: 1px solid #dddddd;text-align: left;padding: 8px;}
+    th {background-color: #f2f2f2;}
+    li { text-align: left; color: #000000; font-size: 15px;}
+    p { text-align: left; color: #000000; font-size: 15px;}
+    .container {text-align: center;background-color: #4b4b4b;border-radius: 10px;overflow: hidden;}
+    .container2 {text-align: center;;border-radius: 10px;overflow: hidden;}
+    .image {max-width: 100%;height: auto;border-radius: 10px;}
+    .description {margin-top: 10px;font-style: italic;text-align: center;background-color: #949494;border-radius: 10px;overflow: hidden;}
+    </style>
+    </head>
+
+        <h1>Welcome to "The Great Recreation Area!"</h1>
+        <h3 class="container2">Here at "The Great Recreation Area" we have many different ammenitys and things to do!  <br>
+          
+            <div class="container2">
+              <image src="summercamp.jpg"></image> <br>
+            </div>
+            
+            <p>We were founded back in 2001 and were founded on the idea that even if your kid doesnt have school doesnt mean that you cant enjoy your self durning the summer. Weither it be just for a week end or over spring or fall break or even something longer like summer break or winter break. We are here to take some of the responsibilty of keeping your child entertained and safe while you take time for your self to relaxe and enjoy some time to your self. During their time here they will learn many different things from out doors stuff like survival,camping or even fishing and hunting to things like cooking or basic wood working. Our goal is to help teach you children important life skills that could later benifite them down in the future.</p>
+        <br>
+        Our ammenitys include<br>
+        <li><a>Shooting range</a></li>
+        <li><a>Public outhouses</a></li>
+        <li><a>A public lake for fishing or to enjoy other things like boating and swimming</a></li>
+        <li><a>We have a great assortment of food at our very own burger shack.</a></li></h3>
+        
+        
+        <!--<h3>The average day will look like this;<br>
+        <li><a>9am-12am: Recreations activitys such as arts and crafts, hiking, swimming ect</a></li>
+        <li><a>12am-1pm: Lunch</a></li>
+        <li><a>1pm-3pm: Movie or board game time</a></li>
+        <li><a>3pm-6pm: Group activitys like basket ball or football or dodgeball</a></li>
+        </h3>-->
+
+        <table>
+          <tr>
+            <th>Recreations Activitys</th>
+            <th>Lunch</th>
+            <th>Movie or Board Games</th>
+            <th>Group activitys</th>
+          </tr>
+          <tr>
+            <td>9am-12am</td>
+            <td>12am-1pm</td>
+            <td>1pm-3pm</td>
+            <td>3pm-6pm</td>
+          </tr>
+          <tr>
+            <td>Recreations activitys such as arts and crafts, hiking, swimming ect</td>
+            <td>Lunch</td>
+            <td>Movie or board game time</td>
+            <td>Group activitys like basket ball or football or dodgeball</td>
+          </tr>
+        </table><br>
+        <div class="container">
+          <img class="image" src="pic.png" alt="Description of the image">
+          <p class="description">
+            John Rodriguez is a camp leader how has been with us for 12 years and is very dedicated in keeping your kids happy and entertained all day. But above all he values the health and saftey of everyone. He is also CPR and epi pen trained.<br>
+            Aisha Khan is a camp counceler who has been working for the camp for 7 years. She has been with us so long that the kids have made their own stories and myths about her as kids do.</p>
+        </div>
+        <h2>Do you want to register your child fill out the form below</h2>
+
+
+<!----       form            -->
+        <form action="submit.php" method="post">
+            <label for="full_name">Full Name:</label><br>
+            <input type="text" id="full_name" name="full_name" required><br><br>
+            
+            <label for="Last Name">Last Name:</label><br>
+            <input type="text" id="last_name" name="last_name" required><br><br>
+
+
+<!----age boxes-->
+
+
+
+            <label for="Age">Childs Age:</label>
+            <select id="age" name="age">
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+
+            </select><br><br>
+<!----date-->
+            <label for="Date">Date:</label><br>
+            <input type="date" id="date" name="date" required> <br><br>
+        
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+        
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone" required><br><br>
+<!---------                      child info                                                            -->
+            <label for="Childs photo">Childs Photo</label>
+            <input type="file" id="file" name="file" required><br><br>
+
+
+
+            <label for="childs hobbies">Hobbies:</label><br>
+            <input type="text" id="hobbies" name="hobbies" required> <br><br>
+<!--                     t shirt sizes                                                     -->
+            <label for="T-Shirt Size">T-Shirt Size:</label><br>
+            <input type="radio" id="t_shirt_size" name="t_shirt_size"> Extra Large <required>  <br><br>
+            <input type="radio" id="t_shirt_size" name="t_shirt_size"> Large <required>  <br><br>
+            <input type="radio" id="t_shirt_size" name="t_shirt_size"> Medium  <required> <br><br>
+            <input type="radio" id="t_shirt_size" name="t_shirt_size"> Small  <required> <br><br>
+            
+            
+        
+        
+            <input type="submit" value="Register Now"> <input type="submit" value="Cancel">
+        </form>
+        
+        <!---<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdRuMT1YYCaJVOkbE-JeK0R6ijMFtLcKeS7GBqlT79AhllVDw/viewform?embedded=true" width="640" height="988" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>---->
+
+
+
+
+
+
+    
+    
+    
+    </head>
+</html>

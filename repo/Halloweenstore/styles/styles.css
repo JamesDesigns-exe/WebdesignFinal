@@ -1,0 +1,19 @@
+h1 { text-align: center; font-family: serif; font-weight: normal; text-transform: uppercase; border-bottom: 1px solid #000000; margin-top: 30px;}
+h2 { text-align: left; color: #000000; font-size: 30px;}
+li { text-align: left; color: #000000; font-size: 15px;}
+p { text-align: left; color: #000000; font-size: 15px;}
+
+
+
+
+/*<input type="radio" id="how" name="Instagram">
+<lable for="How did you hear about us?">Instagram <required></lable><br>
+<input type="radio" id="how" name="facebook">
+<lable for="How did you hear about us?">Facebook <required></lable><br>
+<input type="radio" id="how" name="Youtube">
+<lable for="How did you hear about us?">Youtube <required></lable><br>
+<input type="radio" id="how" name="Google">
+<lable for="How did you hear about us?">Google <required></lable><br>
+<input type="radio" id="how" name="Local News">
+<lable for="How did you hear about us?">Local News <required></lable><br>*/
+
